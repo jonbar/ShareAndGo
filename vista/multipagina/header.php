@@ -19,7 +19,7 @@
         </div>
     </div>
     <?php
-    require_once 'PopUp/registro.php';
-    require_once 'PopUp/login.php';
+    require_once 'popup/registro.php';
+    require_once 'popup/login.php';
     ?>
 </nav>
