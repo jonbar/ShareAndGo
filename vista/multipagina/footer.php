@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
-                    <img src="#" class="">
+                    <img src="../img/logo.png" class="">
                 </div>
                 <div class="col-sm-2">
                     <ul>
