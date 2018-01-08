@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
-                    <img src="../img/logo.png" class="">
+                    <img src="../img/logo.png" class="" style="height: 100px">
                 </div>
                 <div class="col-sm-2">
                     <ul>

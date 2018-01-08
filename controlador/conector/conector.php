@@ -1,8 +1,15 @@
 <?php
+class Conectar {
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+    public static function conexion() {
+        $localhost = 'localhost';
+        $usuario = 'root';
+        $contrasena = '';
+        $tabla = 'shareandgo';
 
+        $link = mysqli_connect($localhost, $usuario, $contrasena, $tabla);
+        $link->query("SET NAMES 'utf8'");
+        return $link;
+    }
+
+}

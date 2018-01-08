@@ -16,7 +16,7 @@
             ?>
         </div>
         <div>
-            <img src="../img/fondo_cabecera_inicio.jpg" style="width: 100%" />   
+            <img src="../img/banner.jpg" style="width: 100%" />   
         </div>
         <div class="jumbotron">
             <div class="container text-center">
