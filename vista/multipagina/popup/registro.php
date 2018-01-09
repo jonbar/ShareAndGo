@@ -5,7 +5,6 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Registro</h4>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -35,10 +34,6 @@
                 <div class="form-group">
                     <label for="municipio">Municipio:</label>
                     <input type="text" class="form-control" id="municipio">
-                </div>
-                <div class="form-group">
-                    <label for="imagen">Imagen:</label>
-                    <input type="text" class="form-control" id="imagen">
                 </div>
             </div>
             <div class="modal-footer">

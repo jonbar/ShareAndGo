@@ -11,8 +11,10 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/menu_principal.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="../../js/publicar_trayecto.js" type="text/javascript"></script>
     </head>
     <body>
         <?php
@@ -24,34 +26,12 @@ and open the template in the editor.
                 <button type="submit" class="btn btn-default">salida</button>
                 <button type="submit" class="btn btn-default">dias</button>
             </div>
-            <div>
+            <div style="text-align: center">
                 <div class="container text-center">
-                    <h3>Salidas</h3>
                     <div class="row">
-                        <div class="col-sm-3">
-                            <div class="well">
-                                <h4>Users</h4>
-                                <p>1 Million</p> 
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="well">
-                                <h4>Pages</h4>
-                                <p>100 Million</p> 
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="well">
-                                <h4>Sessions</h4>
-                                <p>10 Million</p> 
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="well">
-                                <h4>Bounce</h4>
-                                <p>30%</p> 
-                            </div>
-                        </div>
+                        <!-- FALTA PONER FOREACH -->
+                        <?php require '../multipagina/tarjeta_viaje.php'; ?>
+                        <!-- ------------------- -->
                     </div>
                 </div>
                 <div class="imagen">
@@ -61,8 +41,11 @@ and open the template in the editor.
                         <p class="title">CEO & Founder</p>
                         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                         <p>example@example.com</p>
-                        <p><button class="button">Añadir coche</button></p>
+                        <p><button id="registrarcoche" class="btn btn-primary" data-toggle="modal" data-target="#myModalRegistro">Registrar coche</button></p>
                     </div>
+                    <?php
+                    require_once "../multipagina/popup/registrar_coche.php";
+                    ?>
                 </div>
             </div>
         </div>

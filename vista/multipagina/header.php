@@ -6,13 +6,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
             </button>
-            <img src="../img/logo.png" style="height: 100px"/><br>
+            <img src="../img/logo.png" style="height: 70px"/><br>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" data-toggle="modal" data-target="#iniciSesionPopUp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#registroPopUp"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
-                <li><a href="#">Publicar viaje</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#publicarViajePopUp"<span class="glyphicon glyphicon-user"></span>Publicar viaje</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Mi cuenta</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
             </ul>
@@ -21,5 +21,6 @@
     <?php
     require_once 'popup/registro.php';
     require_once 'popup/login.php';
+    require_once 'popup/publicar_trayecto.php';
     ?>
 </nav>

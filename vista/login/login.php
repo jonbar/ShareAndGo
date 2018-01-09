@@ -15,37 +15,51 @@
             require_once "../multipagina/header.php";
             ?>
         </div>
-        <div>
+        <div style="margin-bottom: -110px">
             <img src="../img/banner.jpg" style="width: 100%" />   
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron"></div>
+        <div class="jumbotron" style="margin-bottom: 20px">
             <div class="container text-center">
-                <h1>Share & GO</h1>
-                <div class="col-sm-3">
-                    <img src="../img/imagen para descrip.jpg" class="img-responsive" style="width:100%; border-radius: 10px" alt="Image">
-                </div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit interdum dui, 
-                    vel venenatis risus dignissim ut. Maecenas sit amet arcu magna. Proin quis ante est. Etiam 
-                    sagittis elit tellus, a vestibulum orci aliquet at. Vestibulum eu viverra nunc. Phasellus 
-                    quis ligula leo. Proin facilisis orci non quam imperdiet, at rhoncus nulla gravida.</p>
 
-                <p> Donec lacinia eros nulla, scelerisque faucibus felis facilisis vitae. Aenean scelerisque 
-                    at massa ac euismod. Nam nisi sapien, aliquet eu ante id, semper volutpat augue. Duis accumsan 
-                    ligula odio, nec hendrerit sem sodales ut. Proin odio velit, venenatis at ultricies non, 
-                    interdum sed purus. Fusce auctor felis purus, ut mollis nisl venenatis ac. Curabitur bibendum 
-                    risus pulvinar luctus porttitor. Praesent ut ante posuere arcu accumsan suscipit sit amet sed nibh. 
-                    Fusce semper vel tellus ut posuere. Vivamus velit ante, semper at fermentum aliquet, posuere sed felis. </p>
+                <div class="col-sm-5">
+                    <img src="../img/imagen_como_funciona.png" class="img-responsive" style="width:100%; border-radius: 10px" alt="Image">
+                </div>
+                <h1>¿Cómo funciona?</h1>
+                <p style="margin-bottom: 30px; margin-top: 30px">¡Crea una cuenta y busca compañeros de viaje con<br>el mismo trayecto que necesites hacer!</p>
+                <div class="container text-center" >
+                    <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#registroPopUp" style="width: 400px">
+                        <span class="glyphicon glyphicon-user" ></span> Regístrate 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="container ">
+
+                <div class="col-sm-5">
+                    <img src="../img/centro_zornotza.jpg" class="img-responsive" style="width:100%; border-radius: 10px" alt="Image">
+                </div>
+                <h2>Y tú, ¿Con quién vienes?</h2>
+                <p>Cada vez somos más; la manera más rápida y barata de llegar al centro.</p>
+
+                <p>Comparte tu coche con amigos que estén en la misma situación que tú, ahorra 
+                    dinero y gana tiempo. Se acabó eso de esperar al bus, o incluso perderlo! 
+                    Consigue gente que haga el mismo trayecto que tú, o busca una plaza en alguno 
+                    de los trayectos disponibles</p>
+
             </div>
         </div>
 
         <div class="container">
             <h2>Ventajas de viajar con nosotros</h2>
-            <div class="row">
+            <div class="row" style="text-align: center">
                 <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="../img/icono_ahorro.png" alt="Lights" style="width:50%">
                         <div class="caption">
-                            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                            <p>Comparte los gastos entre todos los pasajeros. ¡Ahorra tiempo y dinero!</p>
                         </div>
                     </div>
                 </div>
@@ -53,7 +67,7 @@
                     <div class="thumbnail">
                         <img src="../img/icono_amigos.png" alt="Nature" style="width:50%">
                         <div class="caption">
-                            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                            <p>Tú eliges con quién viajas, conoce a gente con el mismo recorrido que tú y haz amigos.</p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +75,7 @@
                     <div class="thumbnail">
                         <img src="../img/icono_eco.png" alt="Fjords" style="width:50%">
                         <div class="caption">
-                            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                            <p>Ayuda al medio ambiente, viajar con un coche contamina menos que con cinco :)</p>
                         </div>
                     </div>
                 </div>
