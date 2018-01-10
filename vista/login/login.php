@@ -36,24 +36,19 @@
         </div>
 
         <div class="jumbotron">
-            <div class="container ">
-
-                <div class="col-sm-5">
+            <div class="container text-center">
+                <div class="col-sm-6">
+                <h1>¡Comparte el viaje!</h1>
+                <p style="margin-bottom: 30px; margin-top: 30px">Busca el trayecto que más se adapte a tí o crea una ruta desde el lugar de salida hasta el centro para ayudar a gente que se encuentra en la misma situación que tú.</p>
+                <p>Decide con quien disfrutar del viaje y compartir los gastos del día a día de una manera rápida y cómoda.</p>
+                </div>
+                <div class="col-sm-5" style="float:right">
                     <img src="../img/centro_zornotza.jpg" class="img-responsive" style="width:100%; border-radius: 10px" alt="Image">
                 </div>
-                <h2>Y tú, ¿Con quién vienes?</h2>
-                <p>Cada vez somos más; la manera más rápida y barata de llegar al centro.</p>
-
-                <p>Comparte tu coche con amigos que estén en la misma situación que tú, ahorra 
-                    dinero y gana tiempo. Se acabó eso de esperar al bus, o incluso perderlo! 
-                    Consigue gente que haga el mismo trayecto que tú, o busca una plaza en alguno 
-                    de los trayectos disponibles</p>
-
             </div>
         </div>
-
+        
         <div class="container">
-            <h2>Ventajas de viajar con nosotros</h2>
             <div class="row" style="text-align: center">
                 <div class="col-md-4">
                     <div class="thumbnail">
