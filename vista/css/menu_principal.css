@@ -13,11 +13,10 @@
     margin: auto;
 }
 .dias{
-    margin: auto;
+    width: 100%;
 }
 .dias td{
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: auto;
     border-radius: 5px;
 }
 .dia{
