@@ -13,7 +13,7 @@
                 <li><a href="#" data-toggle="modal" data-target="#iniciSesionPopUp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#registroPopUp"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#publicarViajePopUp"><span class="glyphicon glyphicon-road"></span> publicar viaje</a></li>
-                <li><a href="../mi_perfil/miPerfil.php"><span class="glyphicon glyphicon-user"></span> Mi cuenta</a></li>
+                <li><a href="../mi_perfil/mi_perfil.php"><span class="glyphicon glyphicon-user"></span> Mi cuenta</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
             </ul>
         </div>
