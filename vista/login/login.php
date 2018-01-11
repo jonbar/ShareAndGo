@@ -29,7 +29,7 @@
                 <p style="margin-bottom: 30px; margin-top: 30px">¡Crea una cuenta y busca compañeros de viaje con<br>el mismo trayecto que necesites hacer!</p>
                 <div class="container text-center" >
                     <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#registroPopUp" style="width: 400px">
-                        <span class="glyphicon glyphicon-user" ></span> Regístrate 
+                        <span class="glyphicon glyphicon-user" ></span> Registrarse 
                     </a>
                 </div>
             </div>
