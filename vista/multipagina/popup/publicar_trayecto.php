@@ -8,7 +8,7 @@
             <div class="modal-body"> 
                 <div class="form-group">
                     <input class="topcoat-combo-input" type="text" list="poo" placeholder="Salgo de...">
-                    <datalist id="poo">
+                    <datalist id="poo" name="municipio_salida">
                     </datalist>
              
                     <br><br>
@@ -30,13 +30,9 @@
                     </div>
                 </div>
 
-                <label for="sel1">Coche:</label>
-                <select class="form-control" id="sel1">
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                </select><br>
+                <input class="topcoat-combo-input" type="text" list="poo" placeholder="Elige el coche que vayas a utilizar">
+                    <datalist id="poo" name="coche">
+                    </datalist>
 
                 <br>
 

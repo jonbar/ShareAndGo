@@ -11,8 +11,8 @@ $( document ).ready(function() {
                 $.each(midato, function (i, dato) {
                     milista += "<option id=" + dato.id_municipio + ">" + dato.municipio + ", " + dato.provincia + "</option>";
                 });
-                $('#poo').html(milista);
-                $('#municipio_paso').html(milista);
+                $('datalist[name=municipio_salida]').html(milista);
+//                $('#municipio_paso').html(milista);
                 return false;
             },
             error: function (xhr) {
@@ -24,4 +24,5 @@ $( document ).ready(function() {
     $('#anadir_parada').on('click', function(){
         alert('asds');
     });
+    //aa
 });
